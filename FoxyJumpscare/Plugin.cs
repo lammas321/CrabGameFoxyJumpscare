@@ -8,6 +8,7 @@ using System.Globalization;
 namespace FoxyJumpscare
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+    [BepInDependency("lammas123.CrabDevKit")]
     public sealed class FoxyJumpscare : BasePlugin
     {
         internal static FoxyJumpscare Instance { get; private set; }
